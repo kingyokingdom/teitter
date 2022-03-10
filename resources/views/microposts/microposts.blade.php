@@ -23,6 +23,8 @@
                         @endif
                     </div>
                 </div>
+                {{-- お気に入り／お気にりい解除ボタン --}}
+                @include('user_favorite.favorite_button')
             </li>
         @endforeach
     </ul>
