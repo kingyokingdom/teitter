@@ -11,6 +11,7 @@
             @include('users.navtabs')
             {{-- ユーザ一覧 --}}
             @include('users.favoritesusers')
+             
         </div>
     </div>
 @endsection
